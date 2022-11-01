@@ -1,0 +1,780 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background: #EFFFFD;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+
+.logo {
+    width: 125px;
+    display: inline-flex;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu-toggle {
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin-right: 18px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.menu {
+    display: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a.active {
+    background: rgba(0, 172, 172, 0.22);
+    border-radius: 9.26837px;
+    color: #004F4F;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menu.opened {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: #EFFFFD;
+    padding: 0 20px 100px 20px;
+}
+
+.price {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 44px;
+    margin-top: 50px;
+}
+
+.introduction {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: -50px 20px 50px 20px;
+    background-color: white;
+
+}
+
+.pers {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 50px;
+}
+
+.free {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #44B58F;
+    padding-top: 30px;
+}
+
+.try-me {
+    font-family: 'Handlee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    color: #FF6D34;
+}
+
+.up-to {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 50px;
+
+}
+
+.for-free {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    height: 85px;
+    text-decoration: none;
+    padding-top: 30px;
+    display: block;
+    background-color: #44B58F;
+    width: 100%;
+}
+
+
+.prof {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 50px;
+}
+
+.best-plan {
+    font-family: 'Handlee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #FF6D34;
+    display: flex;
+}
+
+.twenty-mounth {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #44B58F;
+    padding-top: 7px;
+}
+
+.billed {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+
+}
+
+.busy {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 50px;
+}
+
+
+.pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 50px 20px;
+}
+
+.business {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 50px 20px 0 20px;
+}
+
+.hundred-mounth {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #44B58F;
+    padding-top: 30px;
+}
+
+.billed-hundred {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.text-after-table {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    text-align: center;
+    width: 280px;
+    margin: 30px 20px 50px 20px;
+    color: #44B58F;
+}
+
+.hosting {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.good-news {
+
+    display: flex;
+    flex-direction: column;
+    background: #FF6D34;
+    padding: 50px 20px;
+}
+
+.news {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 20px;
+}
+
+.sales {
+    width: 280px;
+    border: 1px solid black;
+    height: 85px;
+    background: #44B58F;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    box-shadow: -15px 15px 0px 5px #E5612E;
+    align-items: center;
+    align-self: center;
+    margin-top: 20px;
+
+}
+
+.whats {
+
+    padding-top: 50px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.why {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 50px;
+}
+
+.thats-why {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.for-you {
+    background: #6255AE;
+    margin-top: 50px;
+    padding: 50px 20px;
+}
+
+.host {
+    color: white;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.sending {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: -20px 20px 0px 0 #4F448C;
+}
+
+.email {
+
+    height: 85px;
+    padding: 0 20px;
+    flex-grow: 1;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+input::placeholder {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+.click {
+
+    height: 85px;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #44B58F;
+    color: white;
+    border: 1px solid black;
+    padding: 0 30px;
+
+}
+
+.by-signing {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+    background: #190C66;
+    padding-left: 20px;
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.stape {
+    color: white;
+    padding-top: 50px;
+}
+
+.adress {
+    padding-top: 50px;
+    color: white;
+
+}
+
+.year {
+    padding-top: 30px;
+    color: white;
+
+}
+
+.social {
+    padding-top: 60px;
+
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding-top: 55px;
+}
+
+.hours {
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.days {
+    padding-top: 15px;
+    color: white;
+}
+
+.by-header {
+    padding-top: 50px;
+    color: white;
+
+}
+
+.solutions {
+    padding-top: 40px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.custom-select {
+    display: none;
+}
+
+.language {
+    display: none;
+}
+
+.by-solutions {
+    padding-top: 15px;
+    color: white;
+}
+
+.learn {
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.link {
+    padding-top: 15px;
+    color: white;
+    padding-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    header {
+        padding: 27px 56px 0px 15px;
+        justify-content: space-between;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .menu {
+        display: flex;
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 2px;
+    }
+
+    .menu a {
+        padding: 2px 8px;
+    }
+
+    .menu a+a {
+        margin-left: 10px;
+    }
+
+    .price {
+        font-family: 'Source Code Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 64px;
+        margin-top: 150px;
+    }
+
+    .introduction {
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        width: 700px;
+        margin-top: 45px;
+    }
+
+    .tables {
+        margin: -50px 20px 50px 20px;
+        display: flex;
+        justify-content: center;
+
+
+
+    }
+
+    .tables-content {
+        box-shadow: -10px 10px 0 0 #CEF0EC;
+        display: flex;
+        flex: 0 1 1180px;
+
+
+    }
+
+    .table {
+        margin-top: 0;
+        background-color: white;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 380px;
+
+    }
+
+    .pro {
+        flex-basis: 420px;
+    }
+
+    .up-to,
+    .billed {
+        flex-grow: 1;
+    }
+
+    .up-to {
+        padding-top: 87px;
+    }
+
+    .text-bottom {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .good-news {
+        text-align: left;
+        flex-direction: row;
+        padding: 100px 120px 100px 130px;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 130px);
+
+    }
+
+    .host-news {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        margin-right: 80px;
+    }
+
+    .hosting {
+        font-family: 'Source Code Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .news {
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+
+    .whats {
+        width: 700px;
+        height: 840px;
+        padding: 0;
+    }
+
+    .text-ask {
+        display: flex;
+
+    }
+
+    .why {
+        font-family: 'Source Code Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: left;
+
+    }
+
+    .thats-why {
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .questions {
+        width: 600px;
+        padding-bottom: 200px;
+        padding-top: 100px;
+    }
+
+    .for-you {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 150px 130px;
+    }
+
+    .host {
+        font-family: 'Source Code Pro';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        width: 395px;
+    }
+
+
+    .sending {
+        flex-direction: row;
+        box-shadow: -20px 20px 0px 0 #4F448C;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 150px;
+    }
+    .by-header, .stape {
+        padding-top: 0;
+
+    }
+
+    .custom-select {
+        display: block;
+        padding-top: 10px;
+
+    }
+
+    .custom-select select {
+        border: 1px solid #190C66;
+        border-radius: 5px;
+        background: none;
+        color: white;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        appearance: none;
+        width: 150px;
+        overflow: hidden;
+        background: url('/images/row.svg') no-repeat right;
+
+    }
+
+    option {
+        background: #190C66;
+    }
+
+    .language {
+        display: block;
+        font-family: 'Prompt';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .column-second {
+        order: 1;
+    }
+
+    .colomn-third {
+        order: 2;
+    }
+
+    .column-first {
+        width: 320px;
+    }
+
+}
